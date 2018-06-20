@@ -69,6 +69,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
+# Build System
+BUILD_BROKEN_DUP_RULES := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
